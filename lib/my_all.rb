@@ -6,4 +6,5 @@ def my_all?(collection)
   while i < collection.length do
     yield(collection[i])
   end
+  status
 end
