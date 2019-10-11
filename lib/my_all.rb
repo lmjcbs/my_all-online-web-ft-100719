@@ -5,6 +5,7 @@ def my_all?(collection)
   status = false
   while i < collection.length do
     status = yield(collection[i])
+    i += 1
   end
   status
 end
